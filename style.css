@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+p{
+    color: white;
+    padding-bottom: 1%;
+}
+
+header{
+    background-color: #1B2838;
+    padding:20px 0; 
+}
+
+h3{
+    padding-bottom: 4px;
+    color:white;
+}
+
+.divlinks a{
+    padding-bottom: 4px;
+    color:white
+}
+
+
+
+footer{
+    background-color: #1B2838;
+    color: white;
+    padding:20px 16px;
+    margin:0 auto;
+
+}
+
+table{
+    border: solid white;
+    border-radius: 8%;
+    
+}
+
+td{
+    border: solid white 15px;
+    border-radius: 30%;
+}
+
+.tableimg img{
+    padding: 10px;
+    width: 320px;
+    height:320px;
+    border-radius:30%;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 2%;
+
+}
+
+
+.logo{
+    width:80%;
+}
+
+.logo div{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.logo h1{
+    display: inline-block;
+    padding-top: 30px;
+    width:64%;
+    text-align: right;
+    color: white;
+}
+
+.logo img{
+    border-radius: 80%;
+   height: 100px;
+   width: 100px;
+}
+
+
+.menu{
+    padding-top: 30px;
+    width:100%;
+    text-align: right;    
+}
+
+.menu a{
+color: white;
+font-weight: bold;
+margin-right: 15px;
+}
+
+body{
+    background-color: #32465B;
+    
+}
+
+
+
+.divul{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.divul img{
+    
+    padding:30px;
+    width: 400px;
+    height:400px;
+    border-radius:30%;
+  
+}
+
+.divul2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.divul2 img{
+    
+    padding:30px;
+    width: 400px;
+    height:400px;
+    border-radius:30%;
+}
+
+.imgcampusuniube{
+    padding:15px;
+    width: 500px;
+    height:500px;
+    border-radius:15%;
+}
+
+.divvideo{
+   display: flex;
+   align-items: flex-start;
+}
+
+.ifvideo{
+    padding: 1% 0;
+    
+}
+
+.agta{
+    color:white;  
+}
+
+.imgright{
+    object-fit:contain;
+    padding-left: 1%;
+    padding-top: 1%;
+    width: auto;
+    height:auto;
+}
+
+.nwdiv img{
+    width: 100%;
+    height:auto;
+}
+
+.container{
+    padding:0 16px;
+    margin:0 auto;
+    color: white;
+}
+
+@media screen and (min-width:1024px) { 
+    .container {
+        max-width: 1024px;
+    }
+}
+
+.ffooter h3{
+text-align: center;
+}
+
+fieldset{
+    border:0;
+}
+
+input, textarea, button{
+    border-radius: 5px;
+}
+
+.field{
+    margin-bottom:1%;
+}
+
+.field label{
+    margin-bottom: 3px;
+    color: white;
+    display:block;
+}
+
+fildset.group .field{
+    float:left;
+    margin-right:2px;
+}
+
+.field input[type="text"], .field input[type="email"], .field textarea{
+    padding:1%;
+    border:1px solid white;
+} 
+
+#textareaa{
+    height: 390px;
+}
+
+.container2{
+   
+    margin-left:43%;
+    justify-content: center;
+    align-items: center;
+}
